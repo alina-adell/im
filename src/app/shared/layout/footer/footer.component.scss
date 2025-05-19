@@ -3,6 +3,7 @@ footer.footer {
   padding-top: 39px;
   padding-bottom: 50px;
   background-color: rgba(100, 143, 100, 1);
+  flex-shrink: 0;
 
   .container {
     display: flex;
