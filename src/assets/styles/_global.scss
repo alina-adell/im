@@ -2,10 +2,21 @@
 @import "mixins";
 
 html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
 }
 
 figure {
